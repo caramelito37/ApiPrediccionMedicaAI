@@ -1,0 +1,54 @@
+# Ignorar el archivo del modelo entrenado
+/models/*.pth
+
+# Archivos temporales y caché de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# Configuración de PyCharm/IDEA
+.idea/
+.vscode/
+
+# Archivos temporales de Jupyter y Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# Archivos y carpetas de logs
+*.log
+logs/
+*.out
+*.err
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno virtual
+.venv/
+bin/
+Include/
+Lib/
+Scripts/
+
+# Archivos relacionados con la ejecución de Docker o contenedores
+docker-compose.yml
+.Dockerfile
+
+# Configuración de FastAPI y Ngrok
+ngrok.log
+ngrok.yml
+
+# Archivos de configuración de usuarios
+*.token
+*.auth
+
+# Ignorar directorios de uploads
+uploads/
